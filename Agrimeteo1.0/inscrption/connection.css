@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, #a4c9fd, #4861de);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.formulaire {
+    position: relative;
+}
+
+form {
+    background: rgba(255, 255, 255, .3);
+    padding: 2rem;
+    height: 350px;
+    border-radius: 20px;
+    border-left: 2px solid rgba(255, 255, 255, .3);
+    border-top: 2px solid rgba(255, 255, 255, .3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -5px rgba(0, 0, 0, .3);
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    opacity: .7;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+
+a {
+    color: #ddd;
+    text-decoration: none;
+    transition: all .4s;
+    margin-left: 180px; 
+}
+
+a:hover {
+    text-shadow: 2px 2px 6px rgb(0, 0, 0);
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-left: 2px solid rgba(255, 255, 255, .3);
+    border-top: 2px solid rgba(255, 255, 255, .3);
+    padding: 0.5rem;
+    width: 150px;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 50px rgba(0, 0, 0, .2);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+    transition: all .4s;
+    margin-bottom: 2em;
+
+    
+}
+::placeholder {
+    color:white;
+}
+
+input:hover,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus{
+ background :rgba(255,255,255, .1);
+ box-shadow: 4px 4px 50px 8px rgba(0, 0, 0, .2);
+}
+input[type="submit"]{
+    cursor: pointer;
+    margin-top: 2px;
+    color: #fff;
+    width: 100px;
+}
+p{
+    margin-top: 0px;
+}
+.drop{
+    background: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    position: absolute;
+    border-left: 2px solid rgba(255, 255, 255, .3);
+    border-top: 2px solid rgba(255, 255, 255, .3);
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px -8px rgba(0, 0, 0, .2);
+}
+.drop-1{
+    height: 80px; width: 80px;
+    top: -20px; left: -50px;
+    z-index: -1;
+}
+.drop-2{
+    height: 80px; width: 80px;
+    bottom: -20px; right: -50px;
+}
+.drop-3{
+    height: 100px; width: 100px;
+    bottom: 120px; right: -60px;
+    z-index: -1;
+}
+.drop-4{
+    height: 120px; width: 120px;
+    top: -100px; right: -50px;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+     height: 100vh;
+     background: url(../imag/img3.jpg) no-repeat center center/cover;
+}
+.contenant{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 8px 0px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+    border-radius: 10px;
+
+}
+.contenant .heading{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding: 10px 0 20 px 0;
+}
+.contenant .heading::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(45deg, greenyellow,blue);
+}
+.contenant form .card-detail{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .card-detail .card-box{
+    width:  calc(100%/2 - 20px);
+    margin-bottom: 10px;
+}
+form .card-detail .card-box.detail{
+    display: flex;
+    font-weight: 500;
+}
+.card-detail .card-box input{
+   height: 40px;
+   width: 100%;
+   padding-left: 10px;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   color: #fff;
+   font-size: 15px;
+   margin-bottom: 10px;
+   background: rgba(255, 255, 255, 0.15);
+   box-shadow: 0 8px 8px 0px rgba(31, 38, 135, 0.37);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   -moz-backdrop-filter: blur(5px);
+}
+.card-detail .card-box:hover input{
+    
+        transform: scale(1.1);
+   
+}
+#text{
+    border: none;
+    min-width: 638px;
+    background: none;
+    border-bottom: 1px solid #fff ;
+    color: #fff;
+    font-weight: 200;
+    font-size: 16px;
+    outline: none;
+    height: 80px;
+}
+#button{
+    border: none;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all 0.4s;
+    background: linear-gradient(45deg, greenyellow,blue);
+
+}

@@ -1,0 +1,25 @@
+body{
+    height: 400px;
+    border-radius: 20px;
+    border-left: 2px solid rgba(255, 255, 255, .3);
+    border-top: 2px solid rgba(255, 255, 255, .3);
+    width: 400px;
+    position: relative;
+    text-align: center;
+    margin-left:450px ;
+
+}
+form {
+    background: rgba(255, 255, 255, .3);
+    padding: 4rem;
+    height: 400px;
+    border-radius: 20px;
+    border-left: 2px solid rgba(255, 255, 255, .3);
+    border-top: 2px solid rgba(255, 255, 255, .3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -5px rgba(0, 0, 0, .3);
+    align-items: center;
+    text-align: center;
+}
